@@ -1,0 +1,31 @@
+
+
+
+ function buang(){
+  var overlay = $('<div id="overlay"></div>');
+  overlay.show();
+  overlay.appendTo(document.body);
+  $(".popup").show();
+  $(".close").click(function() {
+    $(".popup").hide();
+    overlay.appendTo(document.body).remove();
+    return false;
+  });
+
+  $(".x").click(function() {
+    $(".popup").hide();
+    overlay.appendTo(document.body).remove();
+    return false;
+  });
+   
+    setTimeout(function() { 
+    $(".popup").hide();
+     overlay.appendTo(document.body).remove();
+     return false;
+   
+    }, 3500);
+}
+
+window.onload = function() {
+  buang();
+};

@@ -1,0 +1,165 @@
+.container.mcontainer {
+  margin-top: 50px;
+  width: 320px;
+  height: 480px;
+}
+
+.panel-heading.msingle-subject {
+  background-color: #d9e8f4 !important;
+  color: #0066b3;
+}
+
+.panel-heading.mpsle.mbundle {
+  background-color: #c5d9a4;
+  color: #466a0d;
+}
+
+.panel-heading.mpsle.mchinese.mbundle {
+  background-color: #f4e6d9;
+  color: #c87600;
+}
+
+.mprc-bg {
+  background-color: #0066b3;
+  color: #fff;
+}
+
+.mpsle2018bg {
+  background-color: #fff6e8;
+}
+
+.panel-group .panel {
+  margin-bottom: -6px;
+  border-radius: 4px;
+}
+
+.mbundle-img {
+  height: 50px;
+  width: 50px;
+}
+
+.mbundle-img.mpopular-img {
+  position: relative;
+  float: right;
+}
+
+.mbundle-container {
+  position: absolute;
+  height: 43px;
+  width: 170px;
+  margin: auto 0px auto 5px;
+  padding-top: 10px;
+}
+
+.mtitle-small {
+  font-size: 1.1rem;
+  width: 150px;
+  height: 20px;
+}
+
+.mtitle-bundle.mpsle {
+  color: #466a0d;
+}
+
+.mtitle-bundle.mchinese {
+  color: #c87600;
+}
+
+.mpricing-options {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.mpricing-options.mpsle2018-option {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.msubdesc {
+  font-size: 13px;
+  line-height: 10px;
+  font-weight: normal;
+}
+
+.mprice {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mpricedesc {
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.msaving {
+  color: #ed1c24;
+}
+
+.panel-body {
+  padding: 0px !important;
+}
+
+.title-mpricing {
+  padding-left: 10px;
+}
+
+.mbtn-start-test {
+  padding: 20px 85px !important;
+  margin: 0px 7% !important;
+}
+
+.mbtn-white-blue {
+  border: 2px solid #0065b3 !important;
+  background: #fff !important;
+  color: #0065b3 !important;
+  border-radius: 35px !important;
+}
+
+.mbtn-white-green {
+  border: 2px solid #466a0d !important;
+  color: #466a0d !important;
+  background: #fff !important;
+  border-radius: 35px !important;
+}
+
+.mbtn-white-orange {
+  border: 2px solid #c87600 !important;
+  color: #c87600 !important;
+  background: #fff !important;
+  border-radius: 35px !important;
+}
+
+.mbtn-white-blue:active {
+  background: #0066b3;
+  color: #fff;
+}
+
+.mprcgreen-bg {
+  background-color: #466a0d;
+  color: #fff;
+}
+
+.mprcorange-bg {
+  background-color: #c87600;
+  color: #fff;
+}
+
+.msubscribess-container {
+  background: #d9e8f4;
+  height: 90px;
+  padding-top: 15px;
+}
+
+.msubscribepb-container {
+  background: #c5d9a4;
+  height: 90px;
+  padding-top: 15px;
+}
+
+.msubscribepcb-container {
+  background: #f4e6d9;
+  height: 90px;
+  padding-top: 15px;
+}

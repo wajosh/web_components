@@ -1,0 +1,420 @@
+body {
+  font-family: "Varela Round", sans-serif;
+}
+
+/* Custome CSS */
+.icon-singleSubject,
+.icon-psleBundle,
+.icon-chinesePsleBundle {
+  width: 100px;
+  height: 100px;
+}
+
+.price-bundle {
+  font-size: 48px;
+  margin: 20px 0px 0px 0px;
+}
+
+.price-singleSubject {
+  color: #0066b3;
+}
+
+.price-psleSubject {
+  color: #3c6100;
+  padding: 40px 0px 0px 0px;
+}
+
+.price-chinesePsleSubject {
+  color: #c87600;
+}
+
+.price-subdesc {
+  margin-bottom: 20px;
+}
+
+.price-subdesc-single {
+  color: #0066b3;
+}
+
+.price-subdesc-psle {
+  color: #3c6100;
+}
+
+.price-subdesc-chinesepsle {
+  color: #c87600;
+}
+
+.btn-bundle {
+  width: 150px;
+  height: 50px;
+  border-radius: 35px;
+  margin: 20px 0px 20px 0px;
+  padding: 0px;
+  line-height: 3;
+  color: #fff;
+  font-size: 16px;
+}
+
+.btn-subscribeSingle {
+  border: 2px solid #0065b3;
+  background: #0065b3;
+}
+
+.btn-psleBundle {
+  border: 2px solid #466a0d;
+  background: #466a0d;
+}
+
+.btn-chinesepsleBundle {
+  border: 2px solid #c87600;
+  background: #c87600;
+}
+
+.check-container {
+  display: block;
+  position: relative;
+  padding: 6px 0px 5px 0px;
+  margin: 0px;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  line-height: 2;
+  border: 1px solid #fff;
+  height: 30px;
+  background: #f4f5f5;
+  color: #0065b3;
+}
+
+.radio-container {
+  display: block;
+  position: relative;
+  padding: 5px 0px 5px 1%;
+  margin: 0px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 2;
+  border: 1px solid #fff;
+  height: 30px;
+  text-align: center;
+  background: #f4f5f5;
+  color: #0065b3;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 10px;
+  left: 24%;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+}
+
+.checkmark-psle {
+  float: left;
+  stroke: #466a0d;
+  position: absolute;
+  left: 25%;
+  width: 20px;
+  height: 20px;
+  top: 12px;
+}
+
+.title-psle {
+  color: #3c6100;
+}
+
+.title-chinesepsle {
+  color: #c87600;
+}
+
+.container-bundle {
+  height: 160px;
+  padding: 20px 0px 0px 0px;
+  margin: 0px;
+}
+
+.singleTop {
+  background: #d9e8f4;
+}
+
+.psleTop {
+  background: #c5d9a4;
+}
+
+.chinesePsleTop {
+  background: #f4e6d9;
+}
+
+.title-singleSubject,
+.title-psleBundle,
+.title-chinesePsleBundle {
+  font-size: 28px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.title-singleSubject {
+  color: #0066b3;
+}
+
+.title-psleBundle {
+  color: #466a0d;
+}
+
+.title-chinesePsleBundle {
+  color: #c87600;
+}
+
+.grid-1-5.box-bundle.singleSubjectBundle:hover {
+  border: 4px solid #0066b3;
+}
+
+.grid-1-5.box-bundle.psleBundle:hover {
+  border: 4px solid #466a0d;
+}
+
+.grid-1-5.box-bundle.chinesepsleBundle:hover {
+  border: 4px solid #c87600;
+}
+
+.grid-1-5.box-bundle.singleSubjectBundle,
+.grid-1-5.box-bundle.psleBundle {
+  margin-right: 20px;
+}
+
+.grid-1-5.box-bundle.singleSubjectBundle:hover > .btn-subscribeSingle {
+  border: 4px solid #d9e8f4;
+  margin: 5px 0px 0px 0px;
+  font-weight: bold;
+  line-height: 0px;
+  width: 160px;
+  height: 60px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.grid-1-5.box-bundle.psleBundle:hover > .btn-psleBundle {
+  border: 4px solid #c5d9a4;
+  margin: 5px 0px 0px 0px;
+  font-weight: bold;
+  line-height: 0px;
+  width: 160px;
+  height: 60px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.grid-1-5.box-bundle.chinesepsleBundle:hover > .btn-chinesepsleBundle {
+  border: 4px solid #f4e6d9;
+  margin: 5px 0px 0px 0px;
+  font-weight: bold;
+  line-height: 0px;
+  width: 160px;
+  height: 60px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.grid-1-5.box-bundle.singleSubjectBundle:hover > .price-singleSubject {
+  font-size: 58px;
+  margin: 20px 0px 0px 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+.grid-1-5.box-bundle.psleBundle:hover > .price-psleSubject {
+  font-size: 58px;
+  margin: 20px 0px 0px 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+.grid-1-5.box-bundle.chinesepsleBundle:hover > .price-chinesePsleSubject {
+  font-size: 58px;
+  margin: 20px 0px 0px 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid-1-5 {
+  min-height: 400px;
+  width: 320px;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+  margin: 0px 30px 20px 0px;
+}
+
+@media screen and (min-width: 320px) {
+  .grid-1-5 {
+    min-height: 400px;
+    width: 100%;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+    margin: 0px 0px 20px 0px;
+  }
+
+  .grid-1-5.box-bundle.singleSubjectBundle:hover {
+    height: 600px;
+  }
+
+  .grid-1-5.box-bundle.psleBundle:hover {
+    height: 600px;
+  }
+
+  .grid-1-5.box-bundle.chinesepsleBundle:hover {
+    height: 600px;
+  }
+
+  .grid-1-5.box-bundle.singleSubjectBundle:hover > .price-singleSubject {
+    font-size: 58px;
+    margin: 5px 0px 0px 0px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .grid-1-5.box-bundle.psleBundle:hover > .price-psleSubject {
+    font-size: 58px;
+    margin: 5px 0px 0px 0px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .grid-1-5.box-bundle.chinesepsleBundle:hover > .price-chinesePsleSubject {
+    font-size: 58px;
+    margin: 5px 0px 0px 0px;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .grid-1-5 {
+    float: left;
+    width: 100%;
+  }
+  .grid-1-5:nth-child(odd) {
+    clear: left;
+  }
+}
+@media screen and (min-width: 800px) {
+  .grid-1-5 {
+    width: 33.3333333%;
+  }
+  .grid-1-5:nth-child(3n + 1) {
+    clear: left;
+  }
+  .grid-1-5:nth-child(odd) {
+    clear: none;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .grid-1-5 {
+    width: 320px;
+    height: 612px;
+  }
+
+  .btn-psleBundle {
+    border: 2px solid #466a0d;
+    background: #466a0d;
+    position: relative;
+    bottom: 3px;
+  }
+
+  .grid-1-5:nth-child(odd),
+  .grid-1-5:nth-child(3n + 1) {
+    clear: none;
+  }
+}
+
+.grid-1-5:hover {
+  background-color: #fff;
+  border: 2px solid #c0c0c0;
+  border-left: 2px solid #c0c0c0;
+  border-right: 2px solid #c0c0c0;
+  box-shadow: 0px 0px 10px 0px #323232;
+  transform: scale(1.025);
+  z-index: 2;
+  cursor: pointer;
+}
+.grid-1-5:hover:before,
+.grid-1-5:hover:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  width: 2px;
+}
+.grid-1-5:hover:before {
+  left: -2px;
+}
+.grid-1-5:hover:after {
+  right: -2px;
+}
