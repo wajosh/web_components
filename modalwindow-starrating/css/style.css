@@ -1,11 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
-
-.rankLabel{
-  font-size:24px;
+.rankLabel {
+  font-size: 24px;
   color: #ffffff;
   font-family: arial;
   text-align: center;
-  display:block;
+  display: block;
 }
 
 .rating-label {
@@ -26,7 +25,11 @@
 }
 
 @keyframes rating-label-bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -110,7 +113,11 @@
 }
 
 @keyframes modalWindow-rating-bounce {
-  0%, 100%, 20%, 50%, 80% {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -222,7 +229,7 @@
   padding: 0px 10px;
 }
 
-.starElement04{
+.starElement04 {
   animation-name: stretch-bounce;
   animation-duration: 1s;
   animation-fill-mode: both;
@@ -232,7 +239,7 @@
   padding: 0px 10px;
 }
 
- .starrating-container{
+.starrating-container {
   text-align: center;
   margin: 0 auto;
   max-width: 500px;

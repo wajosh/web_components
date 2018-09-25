@@ -3,7 +3,7 @@ body {
 }
 
 .title-success {
-  position:relative;
+  position: relative;
   font-size: 44px;
   font-weight: bold;
   animation-duration: 1.8s;
@@ -16,13 +16,12 @@ body {
 }
 
 .success {
-  position:relative;
+  position: relative;
   animation-duration: 1.8s;
   animation-fill-mode: both;
   animation-name: bounceIn;
   animation-iteration-count: 2;
   margin: 0;
-
   width: 100px;
   height: 100px;
 }
@@ -43,7 +42,6 @@ body {
   20% {
     transform: scale3d(1.1, 1.1, 1.1);
   }
-
   40% {
     transform: scale3d(0.9, 0.9, 0.9);
   }
@@ -74,9 +72,11 @@ body {
   z-index: 100;
   display: none;
 }
+
 .modalwindow a {
   text-decoration: none;
 }
+
 .popup {
   width: 100%;
   margin: 0 auto;
@@ -84,6 +84,7 @@ body {
   position: fixed;
   z-index: 101;
 }
+
 .modalwindow {
   width: 400px;
   min-height: 370px;
@@ -100,6 +101,7 @@ body {
   animation-name: bounce;
   animation-iteration-count: 1;
 }
+
 .modalwindow p {
   clear: both;
   color: #555555;
@@ -107,10 +109,12 @@ body {
   font-size: 20px;
   font-family: sans-serif;
 }
+
 .modalwindow p a {
   color: #d91900;
   font-weight: bold;
 }
+
 .modalwindow .x {
   float: right;
   height: 35px;
@@ -119,6 +123,7 @@ body {
   top: -25px;
   width: 34px;
 }
+
 .modalwindow .x:hover {
   cursor: pointer;
 }
@@ -129,7 +134,7 @@ body {
   font-weight: bold;
   color: #fff;
   right: 10px;
-  top:-10px;
+  top: -10px;
 }
 
 @keyframes bounce {
@@ -155,9 +160,9 @@ body {
 }
 
 .owlystand {
-  position:relative;
+  position: relative;
   width: 200px;
-  height: 150px;  
+  height: 150px;
   margin: 0 auto;
   -moz-animation-name: jumpbounce;
   animation-duration: 1.8s;
@@ -191,6 +196,7 @@ body {
 path.legOne.st1 {
   animation: legdanceOne 0.5s 2;
 }
+
 @keyframes legdanceOne {
   100% {
     transform: rotate(1deg);
@@ -200,14 +206,14 @@ path.legOne.st1 {
 path.legTwo.st1 {
   animation: legdanceTwo 0.5s 3;
 }
+
 @keyframes legdanceTwo {
   100% {
     transform: rotate(-3deg);
   }
 }
 
-.checkmark-border{
+.checkmark-border {
   background: #00C6BA;
   padding: 20px 0px 20px 0px;
 }
-
